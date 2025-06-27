@@ -1,0 +1,16 @@
+{
+  "name": "tron-usdt-auto-trx-swap-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db:init": "node db/init.js"
+  },
+  "dependencies": {
+    "tronweb": "^3.0.0",
+    "node-telegram-bot-api": "^0.57.0",
+    "sqlite3": "^5.0.0",
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
